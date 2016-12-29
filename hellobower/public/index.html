@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html >
+  <head>
+    <title>Hello Bower</title>
+    
+    <!-- Algo errado com o roteamento do bower -->
+    <!--<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular-route.js"></script>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
+
+  </head>
+  <body>
+    <div ng-app="hellobower">
+      <a href="#/tela1">Ir para Tela 1</a> | <a href="#/tela2">Ir para Tela 2</a><br/>
+      <div ng-view></div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="tela.js"></script>
+  </body>
+</html>

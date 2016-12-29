@@ -23,5 +23,4 @@ angular.module("hellobower").config(($routeProvider) => {
   });
 
   $routeProvider.otherwise("/tela1");
-  
 });
